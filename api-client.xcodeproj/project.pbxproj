@@ -8,11 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		202AFBBA1E5A377E0095ADDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBB91E5A377E0095ADDA /* AppDelegate.swift */; };
-		202AFBBC1E5A377E0095ADDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBBB1E5A377E0095ADDA /* ViewController.swift */; };
 		202AFBBF1E5A377E0095ADDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202AFBBD1E5A377E0095ADDA /* Main.storyboard */; };
 		202AFBC11E5A377E0095ADDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202AFBC01E5A377E0095ADDA /* Assets.xcassets */; };
 		202AFBC41E5A377E0095ADDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202AFBC21E5A377E0095ADDA /* LaunchScreen.storyboard */; };
 		202AFBCF1E5A377E0095ADDA /* api_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBCE1E5A377E0095ADDA /* api_clientTests.swift */; };
+		202AFBDF1E5A38E60095ADDA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBDE1E5A38E60095ADDA /* MainVC.swift */; };
+		202AFBE11E5A395E0095ADDA /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBE01E5A395E0095ADDA /* FoodTruck.swift */; };
+		202AFBE31E5A40D70095ADDA /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBE21E5A40D70095ADDA /* Review.swift */; };
+		202AFBE51E5A42990095ADDA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBE41E5A42990095ADDA /* DataService.swift */; };
+		202AFBE71E5A44270095ADDA /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBE61E5A44270095ADDA /* constants.swift */; };
+		202AFBE91E5A736E0095ADDA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBE81E5A736E0095ADDA /* AuthService.swift */; };
+		202AFBEB1E5AA1C60095ADDA /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBEA1E5AA1C60095ADDA /* FoodTruckCell.swift */; };
+		202AFBF01E5B43A80095ADDA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBEE1E5B43A80095ADDA /* LoginVC.swift */; };
+		202AFBF11E5B43A80095ADDA /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202AFBEF1E5B43A80095ADDA /* LoginVC.xib */; };
+		202AFBF31E5B59960095ADDA /* AddFoodTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBF21E5B59960095ADDA /* AddFoodTruckVC.swift */; };
+		202AFBF51E5B65C10095ADDA /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AFBF41E5B65C10095ADDA /* DetailsVC.swift */; };
+		2076BD3C1E5B8CB60021D9D8 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076BD3B1E5B8CB60021D9D8 /* ReviewsVC.swift */; };
+		2076BD3E1E5B8EF10021D9D8 /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076BD3D1E5B8EF10021D9D8 /* AddReviewVC.swift */; };
+		2076BD401E5B95270021D9D8 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076BD3F1E5B95270021D9D8 /* ReviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +41,6 @@
 /* Begin PBXFileReference section */
 		202AFBB61E5A377E0095ADDA /* api-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		202AFBB91E5A377E0095ADDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		202AFBBB1E5A377E0095ADDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		202AFBBE1E5A377E0095ADDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		202AFBC01E5A377E0095ADDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		202AFBC31E5A377E0095ADDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +48,20 @@
 		202AFBCA1E5A377E0095ADDA /* api-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "api-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		202AFBCE1E5A377E0095ADDA /* api_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_clientTests.swift; sourceTree = "<group>"; };
 		202AFBD01E5A377E0095ADDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202AFBDE1E5A38E60095ADDA /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		202AFBE01E5A395E0095ADDA /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		202AFBE21E5A40D70095ADDA /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		202AFBE41E5A42990095ADDA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		202AFBE61E5A44270095ADDA /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		202AFBE81E5A736E0095ADDA /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		202AFBEA1E5AA1C60095ADDA /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		202AFBEE1E5B43A80095ADDA /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		202AFBEF1E5B43A80095ADDA /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		202AFBF21E5B59960095ADDA /* AddFoodTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodTruckVC.swift; sourceTree = "<group>"; };
+		202AFBF41E5B65C10095ADDA /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		2076BD3B1E5B8CB60021D9D8 /* ReviewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		2076BD3D1E5B8EF10021D9D8 /* AddReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		2076BD3F1E5B95270021D9D8 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +103,11 @@
 		202AFBB81E5A377E0095ADDA /* api-client */ = {
 			isa = PBXGroup;
 			children = (
-				202AFBB91E5A377E0095ADDA /* AppDelegate.swift */,
-				202AFBBB1E5A377E0095ADDA /* ViewController.swift */,
-				202AFBBD1E5A377E0095ADDA /* Main.storyboard */,
-				202AFBC01E5A377E0095ADDA /* Assets.xcassets */,
-				202AFBC21E5A377E0095ADDA /* LaunchScreen.storyboard */,
-				202AFBC51E5A377E0095ADDA /* Info.plist */,
+				202AFBDD1E5A38820095ADDA /* Model */,
+				202AFBDC1E5A387E0095ADDA /* View */,
+				202AFBDB1E5A38790095ADDA /* Controller */,
+				202AFBDA1E5A38710095ADDA /* Resources */,
+				202AFBD91E5A386C0095ADDA /* Services */,
 			);
 			path = "api-client";
 			sourceTree = "<group>";
@@ -94,6 +119,60 @@
 				202AFBD01E5A377E0095ADDA /* Info.plist */,
 			);
 			path = "api-clientTests";
+			sourceTree = "<group>";
+		};
+		202AFBD91E5A386C0095ADDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				202AFBE41E5A42990095ADDA /* DataService.swift */,
+				202AFBE81E5A736E0095ADDA /* AuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		202AFBDA1E5A38710095ADDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				202AFBC01E5A377E0095ADDA /* Assets.xcassets */,
+				202AFBC51E5A377E0095ADDA /* Info.plist */,
+				202AFBE61E5A44270095ADDA /* constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		202AFBDB1E5A38790095ADDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				202AFBEE1E5B43A80095ADDA /* LoginVC.swift */,
+				202AFBB91E5A377E0095ADDA /* AppDelegate.swift */,
+				202AFBDE1E5A38E60095ADDA /* MainVC.swift */,
+				202AFBF21E5B59960095ADDA /* AddFoodTruckVC.swift */,
+				202AFBF41E5B65C10095ADDA /* DetailsVC.swift */,
+				2076BD3B1E5B8CB60021D9D8 /* ReviewsVC.swift */,
+				2076BD3D1E5B8EF10021D9D8 /* AddReviewVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		202AFBDC1E5A387E0095ADDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				202AFBC21E5A377E0095ADDA /* LaunchScreen.storyboard */,
+				202AFBBD1E5A377E0095ADDA /* Main.storyboard */,
+				202AFBEA1E5AA1C60095ADDA /* FoodTruckCell.swift */,
+				202AFBEF1E5B43A80095ADDA /* LoginVC.xib */,
+				2076BD3F1E5B95270021D9D8 /* ReviewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		202AFBDD1E5A38820095ADDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				202AFBE01E5A395E0095ADDA /* FoodTruck.swift */,
+				202AFBE21E5A40D70095ADDA /* Review.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +260,7 @@
 			files = (
 				202AFBC41E5A377E0095ADDA /* LaunchScreen.storyboard in Resources */,
 				202AFBC11E5A377E0095ADDA /* Assets.xcassets in Resources */,
+				202AFBF11E5B43A80095ADDA /* LoginVC.xib in Resources */,
 				202AFBBF1E5A377E0095ADDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202AFBBC1E5A377E0095ADDA /* ViewController.swift in Sources */,
+				2076BD3E1E5B8EF10021D9D8 /* AddReviewVC.swift in Sources */,
 				202AFBBA1E5A377E0095ADDA /* AppDelegate.swift in Sources */,
+				202AFBE31E5A40D70095ADDA /* Review.swift in Sources */,
+				202AFBF31E5B59960095ADDA /* AddFoodTruckVC.swift in Sources */,
+				202AFBDF1E5A38E60095ADDA /* MainVC.swift in Sources */,
+				202AFBE11E5A395E0095ADDA /* FoodTruck.swift in Sources */,
+				202AFBE51E5A42990095ADDA /* DataService.swift in Sources */,
+				202AFBF01E5B43A80095ADDA /* LoginVC.swift in Sources */,
+				202AFBE71E5A44270095ADDA /* constants.swift in Sources */,
+				2076BD3C1E5B8CB60021D9D8 /* ReviewsVC.swift in Sources */,
+				202AFBE91E5A736E0095ADDA /* AuthService.swift in Sources */,
+				202AFBEB1E5AA1C60095ADDA /* FoodTruckCell.swift in Sources */,
+				202AFBF51E5B65C10095ADDA /* DetailsVC.swift in Sources */,
+				2076BD401E5B95270021D9D8 /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +496,7 @@
 				202AFBD51E5A377E0095ADDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202AFBD61E5A377E0095ADDA /* Build configuration list for PBXNativeTarget "api-clientTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +505,7 @@
 				202AFBD81E5A377E0095ADDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  api-client
-//
-//  Created by Akriti Sehrawat on 2/19/17.
-//  Copyright © 2017 Akriti Sehrawat. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
